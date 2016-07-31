@@ -10,7 +10,7 @@
     
     Wanna try it out ?
      
-     This respository hosts the code for the "Boss" code. The "Boss" code is a glimpse into what the "higher ups"
+     This repository holds the code for the "Boss" pages. The "Boss" code is a glimpse into what the "higher ups"
      can view when reviewing officers within their precient. Just download the code and open the login.html page in
      a browser (preferrably Google Chrome)
      
