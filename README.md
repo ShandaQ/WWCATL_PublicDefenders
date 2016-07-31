@@ -10,7 +10,7 @@
     
     Wanna try it out ?
     
-    Check out this site: * <a href="publicdefenderswwc.surge.sh/#/">myLib/</a>
+    Check out our site at this link: publicdefenderswwc.surge.sh
      
       OR
       
