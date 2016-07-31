@@ -7,52 +7,42 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <style>
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-  </style>
-  <script>
+<script>
 	function showDiv() {
 		document.getElementById('ImagesDiv').style.display = "block";
 	}
 	
-	
   </script>
 </head>
 <body>
-
-
-  
-<div class="container text-left">
+<body>
+<div class="container" href="#/home_test">
   <div class="row">
-    <div class="col-sm-12 well">
-      <form role="form">
-		
-		<div >
-			<div class="form-group input-group">
+    <div class="col-md-12" style="text-align: center;">
+      <img class="logo" src="Screens/Logo for Home Screen-2.png">
+        <h4>See Something? Say Something</h4>
+        <hr class="top">
+    </div>
+  </div>
+  <form>
+    <div class="form-group input-group"> <!-- Date field -->
 			  <input type="text" class="form-control" placeholder="Search Officer by name or Badge IDs..">
 			  <span class="input-group-btn">
 				<button class="btn btn-default" type="button">
 				  <span class="glyphicon glyphicon-search"></span>
 				</button>
-			  </span>
-			</div>
-	    </div>
-     
-        <div class="well">
-		  <label for="sel1">Select Gender:</label>
+			  </span>	    
+    </div>
+    <div class="form-group"> <!-- Name field -->
+      <label for="sel1">Select Gender:</label>
 		  <select class="form-control" id="sel1">
 			<option>Male</option>
 			<option>Female</option>
 			<option>Other</option>
 		  </select>
-	    </div>
-		
-		<div class="well">
+    </div>
+	
+	<div class="form-group"> <!-- Name field -->
 		  <label for="sel1">Hair Color:</label>
 		  <select class="form-control" id="sel1">
 			<option>Black</option>
@@ -60,9 +50,9 @@
 			<option>Blonde</option>			
 			<option>Other</option>
 		  </select>
-	    </div>
-		
-		<div class="well">
+    </div>
+	
+	<div class="form-group"> <!-- Name field -->
 		  <label for="sel1">Eye Color:</label>
 		  <select class="form-control" id="sel1">
 			<option>Black</option>
@@ -70,18 +60,18 @@
 			<option>Blue</option>			
 			<option>Other</option>
 		  </select>
-	    </div>
-
-		<div class="well">
+    </div>
+	
+	<div class="form-group"> <!-- Name field -->
 		  <label for="sel1">Height:</label>
 		  <select class="form-control" id="sel1">
 			<option>less than 5</option>
 			<option>5-6</option>
 			<option>greater than 6</option>	
 		  </select>
-	    </div>
-		
-		<div class="well">
+    </div>
+	
+		<div class="form-group"> <!-- Name field -->
 		  <label for="sel1">Race:</label>
 		  <select class="form-control" id="sel1">
 			<option>Caucasain than 5</option>
@@ -90,19 +80,16 @@
 			<option>Asian</option>	
 			<option>Others</option>	
 		  </select>
-	    </div>
-		
-	  </form>
-	  
-	  
-	  <hr>
-	  
-      <button type="button" class="btn btn-primary btn-block" onclick="showDiv()">Search</button>
     </div>
-
-
-  </div>
-  
+</form>
+    <div class="form-group">
+      <div class="row">        
+        <div class="col-md-12 text-center">
+          <button class="btn btn-info submit_btn" name="submit" type="submit" onclick="showDiv()">Submit</button>
+        </div>
+      </div>
+    </div>
+	   
   <div id="ImagesDiv" class="row" style="display:none;">      			
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -127,12 +114,18 @@
                     <img class="img-responsive" src="SecondCop4.png" alt="">
                 </a>
             </div>
-         
-            
+			
+	<div class="form-group">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <!-- <a href="#" class="btn btn-danger btn-circle">Send Help!</a> -->
+          <button class="btn btn-danger btn-circle" name="submit" type="submit" onclick="NextPageDiv()">I can't find the officer</button>
         </div>
+      </div>
+    </div>
+         
+    </div>
+ 
 </div>
-
-
 </body>
 </html>
-
