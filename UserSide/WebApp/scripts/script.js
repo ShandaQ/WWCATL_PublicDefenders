@@ -36,11 +36,12 @@ app.controller('searchController', function($scope,$location){
 });
 app.controller('reviewController', function($scope, $location){
   $scope.gotToSumbit = function(){
-    $location.path('/succesfullSubmit');
+    var review = alert("thank you for your review");
+      $location.path('/');
   };
 });
-app.controller('succesfullSubmitController', function($scope, $location){
-  $scope.search = function(){
-    $location.path('/');
-  };
-});
+// app.controller('succesfullSubmitController', function($scope, $location){
+//   $scope.search = function(){
+//     $location.path('/');
+//   };
+// });
