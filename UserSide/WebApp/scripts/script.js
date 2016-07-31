@@ -1,26 +1,26 @@
 var app = angular.module('app', ['ngRoute']);
 
 app.config(function($routeProvider){
-    $routeProvider
+  $routeProvider
 
-    .when('/', {
-      controller: 'MainController',
-      templateUrl: 'home.html'
-    })
+  .when('/', {
+    controller: 'MainController',
+    templateUrl: 'home.html'
+  })
 
-    .when('/search', {
-      controller:  'searchController',
-      templateUrl: 'search.html'
-    })
+  .when('/search', {
+    controller:  'searchController',
+    templateUrl: 'search.html'
+  })
 
-    .when('/review', {
-      controller:  'reviewController',
-      templateUrl: 'review.html'
-    })
-    .when('/succesfullSubmit',{
-      controller: 'succesfullSubmitController',
-      templateUrl: 'succesfullSubmit.html'
-    });
+  .when('/review', {
+    controller:  'reviewController',
+    templateUrl: 'review.html'
+  })
+  .when('/succesfullSubmit',{
+    controller: 'succesfullSubmitController',
+    templateUrl: 'succesfullSubmit.html'
+  });
 });
 
 
@@ -37,7 +37,7 @@ app.controller('searchController', function($scope,$location){
 app.controller('reviewController', function($scope, $location){
   $scope.gotToSumbit = function(){
     var review = alert("thank you for your review");
-      $location.path('/');
+    $location.path('/');
   };
 });
 // app.controller('succesfullSubmitController', function($scope, $location){

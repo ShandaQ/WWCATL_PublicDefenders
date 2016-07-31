@@ -1,13 +1,3 @@
-<style>
-  .cop{
-    width: 100px;
-    height: 500px;
-  }
-  .scroll{
-    height: 200px; /* or any value */
-    overflow-x: auto;
-  }
-</style>
 <div class="container" href="#/search">
   <div class="row">
     <div class="col-md-12" style="text-align: center;">
@@ -73,56 +63,50 @@
         <option>Others</option>
       </select>
     </div>
-    <div class="form-group">
-      <div class="row" style="margin-left:-23%;">
-        <div class="col-md-6 text-center" >
-          <!-- <a href="#" class="btn btn-danger btn-circle">Send Help!</a> -->
-          <button class="btn btn-danger" name="submit" type="submit" ng-click="gotToReview()">I can't find the officer</button>
-        </div>
-        <div class="col-md-6 text-center">
-          <button class="btn btn-info submit_btn" name="submit" type="submit" onclick="showDiv()">Submit</button>
-        </div>
-      </div>
-    </div>
   </form>
 
+  <div class="form-group">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button class="btn btn-info submit_btn" name="submit" type="submit" onclick="showDiv()">Submit</button>
+      </div>
+    </div>
+  </div>
 
-  <div id="ImagesDiv" class="row scroll" style="display:none;overflow: scroll;">
-    <!-- <div class="form-group">
-      <div class="row"> -->
-
-      <!-- </div>
-    </div> -->
+  <div id="ImagesDiv" class="row" style="display:none;">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-xs-6 thumb">
         <a class="thumbnail" ng-click="gotToReview()">
-          <img class="img-responsive cops" src="SecondCop1.png" alt="">
+          <img class="img-responsive" src="SecondCop1.png" alt="">
         </a>
       </div>
       <div class="col-lg-3 col-md-3 col-xs-6 thumb">
         <a class="thumbnail" ng-click="gotToReview()">
-          <img class="img-responsive cops" src="SecondCop2.png" alt="">
+          <img class="img-responsive" src="SecondCop2.png" alt="">
         </a>
       </div>
       <!-- <div class="clearfix visible-xs"></div> -->
 
       <div class="col-lg-3 col-md-3 col-xs-6 thumb">
         <a class="thumbnail" ng-click="gotToReview()">
-          <img class="img-responsive cops" src="SecondCop3.png" alt="">
+          <img class="img-responsive" src="SecondCop3.png" alt="">
         </a>
       </div>
       <div class="col-lg-3 col-md-3 col-xs-6 thumb">
         <a class="thumbnail" ng-click="gotToReview()">
-          <img class="img-responsive cops" src="SecondCop4.png" alt="">
+          <img class="img-responsive" src="SecondCop4.png" alt="">
         </a>
+      </div>
+    </div>
+
+    <!-- <div class="form-group"> -->
+    <div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <!-- <a href="#" class="btn btn-danger btn-circle">Send Help!</a> -->
+          <button class="btn btn-danger btn-circle" name="submit" type="submit" ng-click="gotToReview()">I can't find the officer</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-<script>
-function showDiv() {
-  document.getElementById('ImagesDiv').style.display = "block";
-}
-
-</script>
