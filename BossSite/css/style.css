@@ -1,0 +1,82 @@
+
+/*FIRST PAGE*/
+body {
+  background-color: #254481;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.policeList{
+
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-37.5%, -40%);
+
+}
+
+.county{
+  text-align: left;
+  margin-left:170px;
+  margin-top: -20px
+}
+
+#logoutButton{
+
+margin-left:1100px;
+margin-top: 20px;
+}
+
+.PoliceProfile {
+  border-radius: 25px;
+  background: #3057AB;
+  padding:20px;
+  width: 250px;
+  height: 425px;
+  display: block;
+
+  float: left;
+  margin-right: 40px;
+
+}
+
+
+/* RESPONSIVE ARROWS */
+[class^=arr-]{
+  border:       solid currentColor;
+  border-width: 0 .2em .2em 0;
+  display:      inline-block;
+  padding:      1em;
+  margin-right: 340px;
+}
+.arr-down  {transform:rotate(45deg);
+   -webkit-transform:rotate(45deg);}
+
+
+
+
+   /* ---------------------------------------SECOND PAGE-------------------------------------- */
+
+   .DetailsList{
+     border-radius: 25px;
+     background: #3057AB;
+     text-align: left;
+     width: 700px;
+     height: 250px;
+     margin-left: 2%;
+     margin-top: 5%;
+   }
+
+   #backButton{
+     text-align: left;
+   }
+
+   #officerImage{
+     margin-top: 20%;
+     margin-left: 40%;
+   }
+
+   /* ---------------------------------------THIRD PAGE-------------------------------------- */
